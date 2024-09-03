@@ -28,7 +28,7 @@ jobs:
         env:
           tag: ${{ github.ref }}
       - name: create release
-        run: gh release create -t $version -n "Release $version" $version
+        run: gh release create -t $version --generate-notes "Release $version 🚀 "
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           version: ${{ env.version }}
