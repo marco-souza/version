@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: publish
     steps:
+      - uses: actions/checkout@v4
       - name: parse tag name
         run: |
           version=$(echo $tag | sed 's/refs\/tags\///')
