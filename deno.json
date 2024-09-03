@@ -1,5 +1,5 @@
 {
-  "name": "@m3o/yaml-compose",
+  "name": "@m3o/version",
   "version": "0.1.1",
   "exports": "./main.ts",
   "license": "MIT",
