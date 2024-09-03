@@ -20,5 +20,5 @@ jobs:
           gh release create -t $version -n "Release $version" $version
           echo "Release $version created"
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.ref }}
