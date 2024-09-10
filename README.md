@@ -1,5 +1,11 @@
 # Semantic Version manager (`@m3o/version`)
 
+[![JSR](https://jsr.io/badges/@m3o)](https://jsr.io/@m3o)
+[![JSR](https://jsr.io/badges/@m3o/version)](https://jsr.io/@m3o/version)
+[![JSR Score](https://jsr.io/badges/@m3o/version/score)](https://jsr.io/@m3o/version/score)
+![GitHub License](https://img.shields.io/github/license/marco-souza/version)
+![GitHub Release](https://img.shields.io/github/v/release/marco-souza/version)
+
 A JavaScript and TypeScript library to manage semantic versions.
 
 > about Semantic Versioning: https://semver.org
